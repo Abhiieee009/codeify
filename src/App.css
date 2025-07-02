@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
+}
+
+.css-b62m3t-container {
+  width: 65%;
+}
+
+.css-r0ncri-control {
+  width: 100% ;
+}
+
+
+
+
+.css-24dvo8-control {
+  width: 30% !important;
+}
+
+.btnNormal {
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+p{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  color: gray;
+}
+
+p > strong{
+  font-size: 20px !important;
+  color: #fff;
+}
+
+ul li {
+  color: rgb(211, 202, 202);
+  margin-top: 10px !important;
+  list-style: circle !important;
+}
+li strong{
+  color: #fff;
+}
+
+pre{
+  background-color: #121214;
+  padding: 10px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #030303;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #212121;
+}
+
