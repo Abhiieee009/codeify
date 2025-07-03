@@ -1,14 +1,28 @@
-# React + Vite
+# 🤖 AI Code Reviewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intelligent code review web application that leverages **Google's Gemini Pro (Generative AI)** and **React.js** to provide real-time, context-aware suggestions for improving your code.
 
-Currently, two official plugins are available:
+> Paste your code. Review AI feedback. Improve instantly.  
+> Powered by Google GenAI & built for modern developers.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔍 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# codeify
-# codeify
+- 🧠 **AI-Powered Reviews**: Uses Google's Gemini Pro model to understand and suggest improvements for code snippets.
+- ⚛️ **React-Based Frontend**: Clean, responsive, and interactive interface powered by React.js and Vite.
+- 📝 **Multi-language Support**: Accepts JavaScript, Python, and more for general AI review and feedback.
+- 🚀 **Real-time Feedback**: Instantly fetches and displays AI feedback as you interact with the app.
+- 🔐 **Secure API Handling**: API key is managed safely using Vite's `.env` environment variables.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology     | Description                                 |
+|----------------|---------------------------------------------|
+| **React.js**   | Frontend library for building the UI        |
+| **Vite**       | Lightning-fast development server           |
+| **Gemini Pro** | Google’s generative LLM (via GenAI SDK)     |
+| **JavaScript** | Core language for frontend logic            |
+| **CSS**        | Custom styling with responsive design       |
